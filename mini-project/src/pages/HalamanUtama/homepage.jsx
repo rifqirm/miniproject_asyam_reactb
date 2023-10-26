@@ -50,8 +50,9 @@ class Homepage extends Component {
                        <div className={Styles.grid2}>
                         <div className={Styles.banner_link}>
                             <h1>iPhone 15</h1>
-                            <p> New camera. New design. Newphoria. </p>
-                            {/* <Link to='/keranjang'>BELANJA SEKARANG</Link> */}
+                            <h2> New camera. New design. Newphoria.</h2>
+                            <p> Welcome to the era of spatial computing. </p>
+                            <Link to='/keranjang'>SHOP NOW</Link>
                         </div>
 
                         <div>

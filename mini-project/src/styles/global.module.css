@@ -61,6 +61,12 @@ body {
     font-size: xxx-large;
 }
 
+.banner_link h2 {
+    font-family: 'Poppins';
+    color: white;
+    text-decoration: none;
+}
+
 .banner_link p {
     font-family: 'Poppins';
     color: white;
@@ -123,10 +129,10 @@ body {
 
 .image_custom_banner {
     position: relative;
-    height: 700px;
-    top: -300px;
-    width: 500px;
-    margin-left: 350px;
+    height: 625px;
+    top: -211px;
+    width: 625px;
+    margin-left: 321px;
 }
 
 .footer {

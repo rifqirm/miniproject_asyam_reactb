@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter} from 'react-rout
 import Homepage from "./pages/HalamanUtama/homepage";
 import Navbar from "./components/Navbar/navbar.jsx"
 import Footer from "./components/Footer/footer";
-
+import ProductPage from "./pages/Produk/product";
 
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
         <Routes>
 
           <Route exact path="/" element={<Homepage />} />
-          
+          <Route exact path="/produkList" element={<ProductPage />} />
+
         </Routes>
         <Footer />
       </Router>

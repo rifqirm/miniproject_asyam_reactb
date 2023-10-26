@@ -19,7 +19,6 @@ class Navbar extends Component{
                 </ul>
                 <div className={Styles.cart}>
                     <div className={Styles.iconCart}><Link to="/keranjang"><FaShoppingCart /></Link></div>
-                    
                 </div>
             </div>
         )
